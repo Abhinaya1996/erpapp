@@ -10,6 +10,7 @@ import Stockunit from './components/master_accounts/Stockunit';
 import Analytics from './components/Analytics';
 import Salesorder from './components/vouchers/Salesorder';
 import Purchaseorder from './components/vouchers/Purchaseorder';
+import Signup from './components/Signup';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login/>}/>
-          <Route path='/login' element={<Login/>}/>  
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<Signup/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>  
           <Route path='/ledgers' element={<Ledgers/>}/> 
           <Route path='/employees' element={<Employees/>}/> 
