@@ -2,7 +2,7 @@ import React from "react";
 import '../assets/css/app.min.css';
 import '../assets/css/icons.min.css';
 import loginwrap from '../assets/images/login.webp';
-
+ 
 export default function Login(){
     return <>
     <div className="account-page">
