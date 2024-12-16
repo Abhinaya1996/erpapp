@@ -1,16 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
-import Ledgers from './components/master_accounts/Ledgers';
-import Employees from './components/master_accounts/Employees';
-import Godown from './components/master_accounts/Godown';
-import Stockitem from './components/master_accounts/Stockitem';
-import Stockunit from './components/master_accounts/Stockunit';
-import Analytics from './components/Analytics';
-import Salesorder from './components/vouchers/Salesorder';
-import Purchaseorder from './components/vouchers/Purchaseorder';
-import Signup from './components/Signup';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import Ledgers from './pages/master_accounts/Ledgers';
+import Employees from './pages/master_accounts/Employees';
+import Godown from './pages/master_accounts/Godown';
+import Stockitem from './pages/master_accounts/Stockitem';
+import Stockunit from './pages/master_accounts/Stockunit';
+import Analytics from './pages/Analytics';
+import Salesorder from './pages/vouchers/Salesorder';
+import Purchaseorder from './pages/vouchers/Purchaseorder';
+import Signup from './pages/Signup';
 
 function App() {
   return (

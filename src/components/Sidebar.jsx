@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import feather from 'feather-icons'
+import { Link } from "react-router-dom";
 
 export default function Sidebar(){
     useEffect(()=> {
@@ -34,100 +35,100 @@ export default function Sidebar(){
             <ul id="side-menu">
                 <li className="menu-title pt-3">Main Menu</li>
                 <li>
-                    <a className='tp-link' href='/dashboard'>
+                    <Link to="/dashboards">
                         <i data-feather="columns"></i>
                         <span> Dashboard </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/analytics'>
+                    <Link to='/analytics'>
                         <i data-feather="map-pin"></i>
                         <span> Analytics </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className="menu-title pt-3">Master Accounts</li>
 
                 <li>
-                    <a className='tp-link' href='/ledgers'>
+                    <Link to='/ledgers'>
                         <i data-feather="calendar"></i>
                         <span> Ledgers </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/employees'>
+                    <Link to='/employees'>
                         <i data-feather="calendar"></i>
                         <span> Employees </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/stockitem'>
+                    <Link to='/stockitem'>
                         <i data-feather="calendar"></i>
                         <span> Stock Item </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/stockunit'>
+                    <Link to='/stockunit'>
                         <i data-feather="calendar"></i>
                         <span> Stock Unit </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/godown'>
+                    <Link to='/godown'>
                         <i data-feather="calendar"></i>
                         <span> Godown </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className="menu-title pt-3">Vouchers</li>
 
                 <li>
-                    <a className='tp-link' href='/salesorder'>
+                    <Link to='/salesorder'>
                         <i data-feather="calendar"></i>
                         <span> Sales Order </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/purchaseorder'>
+                    <Link to='/purchaseorder'>
                         <i data-feather="calendar"></i>
                         <span> Purchase Order </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/purchaseorder'>
+                    <Link to='/purchaseorder'>
                         <i data-feather="calendar"></i>
                         <span> Payment Request </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className="menu-title pt-3">Reports</li>
 
                 <li>
-                    <a className='tp-link' href='/purchaseorder'>
+                    <Link to='/purchaseorder'>
                         <i data-feather="calendar"></i>
                         <span> Daybook </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/purchaseorder'>
+                    <Link to='/purchaseorder'>
                         <i data-feather="calendar"></i>
                         <span> Profit and Loss </span>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className='tp-link' href='/purchaseorder'>
+                    <Link to='/purchaseorder'>
                         <i data-feather="calendar"></i>
                         <span> Outstandings </span>
-                    </a>
+                    </Link>
                 </li>
 
             </ul>

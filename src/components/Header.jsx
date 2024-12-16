@@ -1,19 +1,20 @@
 import { Dropdown, Menu, Avatar, Badge } from 'antd';
 import { DownOutlined, BellOutlined } from '@ant-design/icons';
 import usericon from '../assets/images/users/user-12.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Header(){
     const menu = (
         <Menu>
           <Menu.Item key="1">
-            <a href="">My Account</a>
+            <Link to="">My Account</Link>
           </Menu.Item>
           <Menu.Item key="2">
-            <a href="">Lock Screen</a>
+            <Link to="">Lock Screen</Link>
           </Menu.Item>
           <Menu.Divider />
           <Menu.Item key="3">
-            <a href="">Logout</a>
+            <Link to="">Logout</Link>
           </Menu.Item>
         </Menu>
       );
